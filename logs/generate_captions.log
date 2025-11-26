@@ -1,0 +1,38 @@
+2025-11-27 04:54:32,625 [INFO] Loading model: Qwen/Qwen2.5-VL-3B-Instruct
+2025-11-27 04:54:32,919 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2025-11-27 04:54:32,973 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/config.json "HTTP/1.1 200 OK"
+2025-11-27 04:54:33,179 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2025-11-27 04:54:33,347 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+2025-11-27 04:54:33,401 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/model.safetensors.index.json "HTTP/1.1 200 OK"
+2025-11-27 04:54:33,578 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-VL-3B-Instruct/revision/main "HTTP/1.1 200 OK"
+2025-11-27 04:54:44,225 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2025-11-27 04:54:44,282 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/generation_config.json "HTTP/1.1 200 OK"
+2025-11-27 04:54:44,327 [INFO] Loading processor for Qwen/Qwen2.5-VL-3B-Instruct with max pixels: 200704
+2025-11-27 04:54:44,494 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2025-11-27 04:54:44,681 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2025-11-27 04:54:44,728 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-11-27 04:54:44,893 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2025-11-27 04:54:45,064 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2025-11-27 04:54:45,115 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-11-27 04:54:45,320 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2025-11-27 04:54:45,489 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2025-11-27 04:54:45,538 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-11-27 04:54:45,992 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2025-11-27 04:54:46,040 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/tokenizer_config.json "HTTP/1.1 200 OK"
+2025-11-27 04:54:46,246 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-VL-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2025-11-27 04:54:46,415 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-VL-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2025-11-27 04:54:46,774 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-VL-3B-Instruct "HTTP/1.1 200 OK"
+2025-11-27 04:54:46,945 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2025-11-27 04:54:47,107 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2025-11-27 04:54:47,268 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2025-11-27 04:54:47,313 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/preprocessor_config.json "HTTP/1.1 200 OK"
+2025-11-27 04:54:47,486 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-VL-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2025-11-27 04:54:47,651 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2025-11-27 04:54:47,839 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/chat_template.json "HTTP/1.1 307 Temporary Redirect"
+2025-11-27 04:54:47,887 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/chat_template.json "HTTP/1.1 200 OK"
+2025-11-27 04:54:48,057 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2025-11-27 04:54:48,225 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2025-11-27 04:54:48,447 [INFO] Caption generator initialized with model: Qwen/Qwen2.5-VL-3B-Instruct and max pixels: 200704
+2025-11-27 04:54:48,448 [INFO] Model loaded on device: mps:0
+2025-11-27 04:54:48,449 [INFO] Found 19 images in data/images
+2025-11-27 04:57:57,471 [INFO] Successfully saved 19/19 captions to data/captions.jsonl

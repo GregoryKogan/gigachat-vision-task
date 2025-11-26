@@ -1,0 +1,26 @@
+2025-11-27 04:58:01,538 [INFO] Initializing ImageEditor on mps with torch.float32
+2025-11-27 04:58:01,941 [INFO] HTTP Request: GET https://huggingface.co/api/models/timbrooks/instruct-pix2pix "HTTP/1.1 200 OK"
+2025-11-27 04:58:02,125 [INFO] HTTP Request: HEAD https://huggingface.co/timbrooks/instruct-pix2pix/resolve/main/model_index.json "HTTP/1.1 307 Temporary Redirect"
+2025-11-27 04:58:02,173 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/timbrooks/instruct-pix2pix/31519b5cb02a7fd89b906d88731cd4d6a7bbf88d/model_index.json "HTTP/1.1 200 OK"
+2025-11-27 04:58:05,969 [INFO] Pipeline loaded successfully.
+2025-11-27 04:58:05,970 [INFO] Starting editing for 19 images. Prompt: 'Redraw in the style of Vincent van Gogh.'
+2025-11-27 04:58:52,098 [INFO] Saved edited image to data/edited/adec6be81ee96416c153c3a4c1452183f9a9e3f4_edited.jpg
+2025-11-27 04:59:35,334 [INFO] Saved edited image to data/edited/f6e7efbe99466ce368988589509b8cc132c4fe6c_edited.jpg
+2025-11-27 05:00:21,541 [INFO] Saved edited image to data/edited/70cd7b5ca2ac2e681bde249701d2e218f7975750_edited.jpg
+2025-11-27 05:01:07,304 [INFO] Saved edited image to data/edited/18e671f73a004c31f7bb0161d1e444352baf2b94_edited.jpg
+2025-11-27 05:01:57,378 [INFO] Saved edited image to data/edited/c402af946acfd946b1810390d07d216e8cd3a8f1_edited.jpg
+2025-11-27 05:02:45,301 [INFO] Saved edited image to data/edited/2c9f7c69f637acf83b615b1857fe6f8c2b066898_edited.jpg
+2025-11-27 05:03:30,754 [INFO] Saved edited image to data/edited/388f601a09b42af852b56a30469586e2c7b2d35e_edited.jpg
+2025-11-27 05:04:22,749 [INFO] Saved edited image to data/edited/dc23dfdf0b61a93073aae5b8901912864a1d1a93_edited.jpg
+2025-11-27 05:05:02,172 [INFO] Saved edited image to data/edited/154256c0aa8ab0d71698b7892835ab859211a9e7_edited.jpg
+2025-11-27 05:06:13,582 [INFO] Saved edited image to data/edited/4f3419e136a953b7a9deb5e4c0a6e98c4f83c5e7_edited.jpg
+2025-11-27 05:07:17,024 [INFO] Saved edited image to data/edited/1467eeaa1994341758d09a9a67c5a3b5cd053212_edited.jpg
+2025-11-27 05:07:53,050 [INFO] Saved edited image to data/edited/9bbc8b02dc3a683667413515613b3aaca0ff22eb_edited.jpg
+2025-11-27 05:08:29,486 [INFO] Saved edited image to data/edited/ffd9d3d097f5897477b9bbcaa949fd60cc972283_edited.jpg
+2025-11-27 05:09:06,514 [INFO] Saved edited image to data/edited/daa9f8e90190b910ca3b77a2c8de890b5ae0a867_edited.jpg
+2025-11-27 05:10:27,581 [INFO] Saved edited image to data/edited/8653022f81d5a45cb45bf085905e5cba83b98575_edited.jpg
+2025-11-27 05:11:23,796 [INFO] Saved edited image to data/edited/42b7cf7c4e98e58cce3623870b920ec19d5efc9a_edited.jpg
+2025-11-27 05:12:12,363 [INFO] Saved edited image to data/edited/7e7f7748fdcb02815ab5c38bffa4e247f9b707fa_edited.jpg
+2025-11-27 05:13:04,053 [INFO] Saved edited image to data/edited/7b389af0b2147f903d0f0240534ffee99c41afa9_edited.jpg
+2025-11-27 05:13:52,880 [INFO] Saved edited image to data/edited/c5a6c46d882961210f909ab1322dea389a0838a7_edited.jpg
+2025-11-27 05:13:52,882 [INFO] Finished. Success: 19/19
