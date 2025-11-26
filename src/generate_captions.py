@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 
 class CaptionGenerator:
-    def __init__(self, model: str, max_pixels: int):
+    def __init__(self, model: str, max_pixels: int) -> None:
         logger.info(f"Loading model: {model}")
         self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
             model, torch_dtype="auto", device_map="auto"
