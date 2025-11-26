@@ -1,8 +1,8 @@
-import os
 import argparse
 import logging
-from datasets import load_dataset
+import os
 
+from datasets import load_dataset
 
 logging.basicConfig(
     level=logging.INFO,
