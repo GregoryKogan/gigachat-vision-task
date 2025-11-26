@@ -206,5 +206,6 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Input URLs
-input_urls.csv
+
+# Data
+/data
