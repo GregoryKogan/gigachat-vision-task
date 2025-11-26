@@ -13,10 +13,11 @@ from tqdm.asyncio import tqdm
 MAX_CONCURRENT_DOWNLOADS = 32
 TIMEOUT = 8  # seconds
 
+os.makedirs("logs", exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[logging.FileHandler("downloader.log")],
+    handlers=[logging.FileHandler("logs/download_images.log")],
 )
 logger = logging.getLogger(__name__)
 
