@@ -1,6 +1,13 @@
 import argparse
+import logging
 from datasets import load_dataset
 
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+)
+logger = logging.getLogger(__name__)
 
 DEFAULT_DATASET_NAME = "google-research-datasets/conceptual_captions"
 DEFAULT_SPLIT = "train"
@@ -10,11 +17,13 @@ DEFAULT_IMG_URL_COLUMN = "image_url"
 def main() -> None:
     args = parse_args()
 
+    logger.info(f"Starting generation. Target: {args.n} URLs from {args.dataset_name}")
     dataset = load_dataset(args.dataset_name, split=args.split, streaming=True)
     dataset = dataset.select_columns([args.img_url_column])
     dataset = dataset.rename_column(args.img_url_column, "img_url")
     dataset = dataset.take(args.n)
     dataset.to_csv(args.output_path, index=False)
+    logger.info(f"Successfully saved {args.n} URLs to {args.output_path}")
 
 
 def parse_args() -> argparse.Namespace:
