@@ -4,9 +4,11 @@ import os
 
 from datasets import load_dataset
 
+os.makedirs("logs", exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[logging.FileHandler("logs/generate_input.log")],
 )
 logger = logging.getLogger(__name__)
 
@@ -28,9 +30,8 @@ def main() -> None:
     dataset = dataset.filter(is_valid_url)
     dataset = dataset.take(args.n)
 
-    output_dir = os.path.dirname(args.output_path)
-    if output_dir:
-        os.makedirs(output_dir, exist_ok=True)
+    if os.path.dirname(args.output_path):
+        os.makedirs(os.path.dirname(args.output_path), exist_ok=True)
 
     dataset.to_csv(args.output_path, index=False)
     logger.info(f"Successfully saved {args.n} URLs to {args.output_path}")
