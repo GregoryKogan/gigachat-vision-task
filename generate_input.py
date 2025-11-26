@@ -27,8 +27,12 @@ def main() -> None:
     dataset = dataset.rename_column(args.img_url_column, "img_url")
     dataset = dataset.filter(is_valid_url)
     dataset = dataset.take(args.n)
-    dataset.to_csv(args.output_path, index=False)
 
+    output_dir = os.path.dirname(args.output_path)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
+
+    dataset.to_csv(args.output_path, index=False)
     logger.info(f"Successfully saved {args.n} URLs to {args.output_path}")
 
 
